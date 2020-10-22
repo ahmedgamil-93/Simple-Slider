@@ -1,0 +1,67 @@
+body 
+{
+    font-family: 'Segou ui light' !important ;
+    background-color: black !important;
+    overflow: auto;
+
+}
+.item{
+    position: relative;
+    margin: 15px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.item-caption{
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    border-radius: 5px;
+    
+
+}
+.item img{
+    border-radius: 5px;
+}
+
+#lightBoxContainer{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+#lightBoxItem
+{
+    background-image: url(images/portfolio-1.jpg);
+    background-size:100% 100%;
+    height:500px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    
+}
+#close {
+    position: absolute;
+    top:12px;
+    right: 12px;
+}
+i{
+    font-size: 20px;
+    color: purple;
+    transition: all 1s;
+}
+i:hover{
+    font-size: 25px;
+    color:black;
+}

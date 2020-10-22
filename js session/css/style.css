@@ -1,0 +1,12 @@
+body{
+    font-family: 'segoe ui light'!important;
+}
+
+.test {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    padding: 10px;
+    margin:10px;
+    border:salmon solid 10px;
+}
